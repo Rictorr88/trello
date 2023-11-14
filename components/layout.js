@@ -1,14 +1,9 @@
-import styled from 'styled-components'
-
-const LayoutStyled = styled.div`
-
-`
 
 function Layout({ children }) {
     return (
-        <LayoutStyled>
+        <div className="flex flex-col h-screen bg-primary">
             {children}
-        </LayoutStyled>
+        </div>
     )
 }
 
